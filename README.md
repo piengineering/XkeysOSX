@@ -1,7 +1,7 @@
 # XkeysOSX
 X-keys SDK for OSX
 
-This Software Development Kit (SDK) is in the form of an Xcode workspace with two projects: one for the viewer application, and one for the Xkeys framework. The framework serves as the interface to the hardware, and would be the part that is included in a host application. The viewer application is basically a sample implementation and a means to exercise the framework.
+This Software Development Kit (SDK) is in the form of an Xcode workspace with two projects: one for the viewer application, and one for the Xkeys framework. The framework serves as the interface to the hardware, and would be the part that is included in a host application. The viewer application is basically a sample implementation and a means to exercise the framework. Requires Mac OS X 10.10 or later.
 
 Version 1.2 Changes
 
