@@ -3,6 +3,10 @@ X-keys SDK for OSX
 
 This Software Development Kit (SDK) is in the form of an Xcode workspace with two projects: one for the viewer application, and one for the Xkeys framework. The framework serves as the interface to the hardware, and would be the part that is included in a host application. The viewer application is basically a sample implementation and a means to exercise the framework. Requires Mac OS X 10.10 or later.
 
+Version 1.3 Changes
+
+Modified the Xkeys3SIUnit.m file. This is the file which supports all products other than the XK-24 and the XKE-124 Tbar in a generic manner. Because there could be different read and write lengths on different products supported we cannot set the size of the report buffers in the @implementation section as is done in Xkeys24Unit.m and Xkeys124TbarUnit.m. In v1.2 the report buffer was declared locally under startListeningForInputReports and stopListeningForInputReports but this caused a program crash in certain situations. v1.3 changes how the report buffers are declared and sized, using malloc now.
+
 Version 1.2 Changes
 
 Adds basic support for XK-3 Switch Interface,  XK-12 Switch Interface, XKE-128, XK-80, XK-60, XK-16/8/4 Stick, XK-68 Jog Shuttle, XK-68 Joystick, XK-12 Jog Shuttle, XK-12 Joystick, Matrix Encoder Board, XK-3 Foot Pedal, XKR-32 Rack Mount, HD-15 Wire Interface, XK-64 Jog Tbar, XK-16 LCD. Basic support includes reading of the raw input report, demonstration of setting the green and red indicator LEDs, backlight LED demonstration if applicable, and a demonstration of sending an output report. The graphic displayed will show 128 keys regardless of product model. All of these products use the Xkeys3SIUnit class which is designed to work for all X-keys products. 
