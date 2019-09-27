@@ -1,6 +1,8 @@
 # XkeysOSX
 X-keys SDK for OSX
 
+NOTICE: As of September 27, 2019 this SDK is no longer supported by P.I. Engineering. Use at own risk. 
+
 This Software Development Kit (SDK) is in the form of an Xcode workspace with two projects: one for the viewer application, and one for the Xkeys framework. The framework serves as the interface to the hardware, and would be the part that is included in a host application. The viewer application is basically a sample implementation and a means to exercise the framework. Requires Mac OS X 10.10 or later.
 
 Version 1.3 Changes
