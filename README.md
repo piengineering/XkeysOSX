@@ -5,6 +5,10 @@ NOTICE: As of September 27, 2019 this SDK is no longer supported by P.I. Enginee
 
 This Software Development Kit (SDK) is in the form of an Xcode workspace with two projects: one for the viewer application, and one for the Xkeys framework. The framework serves as the interface to the hardware, and would be the part that is included in a host application. The viewer application is basically a sample implementation and a means to exercise the framework. Requires Mac OS X 10.10 or later.
 
+Version 1.4 Changes
+
+Cookie offset introduced because 10.15 changed them. The OS version is checked and offset applied if appropriate. Search on [[NSProcessInfo processInfo] operatingSystemVersion].minorVersion >= 15 for where the changes are implemented.
+
 Version 1.3 Changes
 
 Modified the Xkeys3SIUnit.m file. This is the file which supports all products other than the XK-24 and the XKE-124 Tbar in a generic manner. Because there could be different read and write lengths on different products supported we cannot set the size of the report buffers in the @implementation section as is done in Xkeys24Unit.m and Xkeys124TbarUnit.m. In v1.2 the report buffer was declared locally under startListeningForInputReports and stopListeningForInputReports but this caused a program crash in certain situations. v1.3 changes how the report buffers are declared and sized, using malloc now.
