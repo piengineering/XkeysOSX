@@ -1,7 +1,7 @@
 # XkeysOSX
 X-keys SDK for OSX
 
-We have dedicated new resources to the development of OSX as of March, 2021
+We have dedicated new resources to the development of an OSX SDK for X-keys as of March, 2021
 We are not sure when we will have a releasable version. 
 
 Please contact Tech@piengineeering.com for further details
