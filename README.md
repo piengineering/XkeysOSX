@@ -6,10 +6,16 @@ We are not sure when we will have a releasable version.
 
 Please contact Tech@piengineeering.com for further details
 
+XKeyReadData v2 Code
+This is a simple app written in Swift that demonstrates reading from and writing to an X-keys XK-24. When a button is pressed the input report is displayed in the output window, then the blue and red backlight LEDs for the corresponding button will be flashed. The output report used to flash the LEDs is displayed in the output window.
 
 NOTICE: As of September 27, 2019 this SDK is no longer supported by P.I. Engineering. Use at own risk. 
 
 This Software Development Kit (SDK) is in the form of an Xcode workspace with two projects: one for the viewer application, and one for the Xkeys framework. The framework serves as the interface to the hardware, and would be the part that is included in a host application. The viewer application is basically a sample implementation and a means to exercise the framework. Requires Mac OS X 10.10 or later.
+
+Version 1.6 Changes
+
+Changes for Big Sur. XkeysUnit.m - comment out the NSCAssert line. Xkeys3SIUnit.m, Xkeys124TbarUnit.m, and Xkeys24Unit.m - set cookie manually in handleInputValue based on buttons detected in Xkeys3SIInputReportCallback. 
 
 Version 1.4 Changes
 
