@@ -8,4 +8,4 @@ PIEngineeringSDKDocumentation.tar.gz contains HID Reports for all X-keys product
 
 We are in the process of developing our first setup utility for Macintosh users, https://xkeys.com/software/mac.html. This utility is for users who wish to program memory resident macros such as keystrokes, mouse clicks, game controller buttons, etc. to their X-keys. Once programmed the unit can be used on any OS. The utility is not for developers wishing to integrate X-keys products for their own specific purposes or who need to use the analog features of certain X-keys products like jog shuttle knob or T-bar. Developers wishing to read/write the raw HID reports should use the XkeysMacOSXSample.zip.
 
-Please contact Tech@piengineeering.com for further details
+Please contact Tech@piengineering.com for further details
