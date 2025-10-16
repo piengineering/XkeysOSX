@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Dune",
+    "author": "Frank Herbert",
+    "page": "77"
+  },
+  {
+    "id": 2,
+    "name": "Ready Player One",
+    "author": "Ernest Cline",
+    "page": "234"
+  }
+]

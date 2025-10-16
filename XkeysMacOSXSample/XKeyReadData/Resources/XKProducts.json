@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "XK-24",
+        "hidDevices": // [productId: number, interface: number]}
+        {
+            { "productID": 1029,
+                "interface": 0
+                
+            },
+            
+            { "productID": 1027,
+                "interface": 0
+                
+            },
+        },
+    "bBytes": 4, // number of button bytes
+    "bBits": 6, // number button bits per byte
+    "layouts":
+    {
+        "reigon": "Keys",
+        "index": 0,
+        "startrow": 1,
+        "startCol": 1,
+        "endRow": 6,
+        "endCol": 4
+        
+    }
+    // [['Keys', 0, 1, 1, 6, 4]], // reigon type name, index, startRow, startCol, endRow, endCol */
+    "colCount": 4, // number of physical columns
+    "rowCount": 6, // number of physical rows
+    "hasPS": true,
+    "backLightType": "BackLightType.LEGACY",
+    "backLight2offset": 32,
+    "timestampByte": 6, // index of first of 4 bytes, ms time since device boot, 4 byte BE
+    
+    },
+    {
+        "name": "XK-240",
+        "hidDevices": // [productId: number, interface: number]}
+        {
+            { "productID": 1029,
+                "interface": 0
+                
+            },
+            
+            { "productID": 1027,
+                "interface": 0
+                
+            },
+        },
+    "bBytes": 4, // number of button bytes
+    "bBits": 6, // number button bits per byte
+    "layouts":
+    {
+        "reigon": "Keys",
+        "index": 0,
+        "startrow": 1,
+        "startCol": 1,
+        "endRow": 6,
+        "endCol": 4
+        
+    }
+    // [['Keys', 0, 1, 1, 6, 4]], // reigon type name, index, startRow, startCol, endRow, endCol */
+    "colCount": 4, // number of physical columns
+    "rowCount": 6, // number of physical rows
+    "hasPS": true,
+    "backLightType": "BackLightType.LEGACY",
+    "backLight2offset": 32,
+    "timestampByte": 6, // index of first of 4 bytes, ms time since device boot, 4 byte BE
+    
+    }
+]
